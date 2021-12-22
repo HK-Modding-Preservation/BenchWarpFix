@@ -25,9 +25,9 @@ namespace BenchWarpFix
         {
             orig(self);
 
-            var hero = HeroController.instance;
-            var heroPos = hero.transform.position;
-            if (heroPos.x >= -100.0f && heroPos.y >= -100.0f)
+            var heroPos = self.transform.position;
+            
+            if (heroPos.x >= -10000.0f && heroPos.y >= -10000.0f)
             {
                 return;
             }
