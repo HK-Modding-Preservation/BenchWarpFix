@@ -26,7 +26,7 @@ namespace BenchWarpFix
             orig(self);
 
             var heroPos = self.transform.position;
-            
+
             if (heroPos.x >= -10000.0f && heroPos.y >= -10000.0f)
             {
                 return;
